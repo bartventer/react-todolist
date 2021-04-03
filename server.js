@@ -6,6 +6,9 @@ import express from 'express';
 import morgan from 'morgan';
 import path from 'path';
 
+/////////////////////////////////////////////////////////////
+// APPLICATION CONSTANTS
+/////////////////////////////////////////////////////////////
 const app = express();
 const PORT = process.env.PORT || 8080;
 import router from './routes/api.js';
